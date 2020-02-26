@@ -1,0 +1,172 @@
+.result {
+    position: relative;
+    border-bottom: 1px solid #bcbcbc;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(188, 188, 188);
+}
+
+
+.review {
+	margin-top : 20px;
+	margin-bottom : 50px;
+}
+
+
+
+.review .type_review thead .head {
+	margin-bottom:10px;
+}
+
+.review .type_review {	
+	border-collapse: collapse;
+	/* text-alian: center; */
+	line-height: 1.5;
+
+}
+
+
+.review .type_review thead .button2 input[type="submit"]{
+	font-size:10px;
+	background:#df231e;
+	border-radius:1px 1px 1px 1px;
+	border:1px solid #d1d8e4;
+	color:#fff;
+	padding:5px;
+	margin-top:auto;
+}
+
+.review .type_review thead .button input[type="submit"], .review .type_review thead .button input[type="button"]{
+	font-size:10px;
+	background:#fff;
+	border-radius:1px 1px 1px 1px;
+	border:1px solid #d1d8e4;
+	padding:5px;
+	margin-left:0px;
+	
+}
+
+.review .type_review thead input[type="text"]{
+	font-size:10px;
+	width:100px;
+	padding:5px;
+}
+
+.review .type_review thead th {
+	
+	width: 100px;
+	text-alian: center;
+	/* padding: 10px; */
+	font-weight: bold;
+	/* vertical-align: top; */
+	color: #282828;
+	border-bottom: 3px solid #282828;
+	/* border-top: 3px solid #036; */
+}
+
+
+
+.review .type_review tbody td{
+	font-size:13px;
+	width: 100px;
+/* 	text-alian: center; */
+	/* padding: 10px; */
+	/* font_weight: blod; */
+	/* vertical-align: top; */
+	border-bottom: 1px solid #ccc;
+	/* background: #f3f6f7; */
+	
+}
+
+.review .type_review tbody td:nth-child(7){
+	text-alian: left;
+	
+}
+
+.review .type_review tbody tr:hover {
+	cursor: default;
+	background: #EDEDED;
+}
+
+.review .type_review tfoot {
+	font-size:13px;
+}
+
+
+
+table.type02 {
+	border-collapse: collapse;
+	/* text-alian: center; */
+	line-height: 1.5;
+}
+
+table.type02 th {
+	width: 130px;
+	text-alian: center;
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	color: #369;
+	border-bottom: 1px solid #ccc;
+	/* border-right: 1px solid #036; */
+}
+
+/* table.type02 th:nth-child(6) {
+	width: 150px;
+}
+
+table.type02 td:nth-child(6) {
+	width: 150px;
+} */
+
+table.type02 td {
+	width: 130px;
+	text-alian: left;
+	padding: 10px;
+	vertical-align: top;
+}
+
+
+
+
+table.type02 tfoot td{
+	
+	
+}
+
+table.type03 {
+	border-collapse: collapse;  
+	/* text-alian: center; */
+	line-height: 1.5;
+}
+
+table.type03 th {
+	width: 100px;
+	text-alian: center;
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	color: #369;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+
+table.type03 td {
+	width: 100px;
+	text-alian: left;
+	padding: 10px;
+	vertical-align: top;
+	border-right: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+

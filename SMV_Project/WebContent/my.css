@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	/* padding: 0; */
+	
+}
+
+.My_body {
+	hegit:800px;
+	width:100%;
+	margin-top:40px;
+	/* align:center; */
+	text-align:center;
+}
+
+
+h2 {
+	margin-bottom:10px;
+}
+
+.main {
+	display:inline-block;
+	width:700px;
+	/* height:320px; */
+	border:0;
+	padding:0px 15px;
+	box-sizing:border-box;
+	text-align:center;
+}
+
+.mypage {
+	
+}
+
+.mypage_title {
+	text-align:center;
+	font-size:14px;
+	border-bottom:4px solid #df231e;
+	
+	
+}
+
+.mypage_mid {
+	border-bottom:1px solid #d1d8e4;
+	hegit:400px;
+	
+	
+}
+
+.mypage_mid table {
+	margin-top:20px;
+	margin-left:150px;
+	margin-bottom:20px;
+	padding-left:10px;
+	font-size:10px;
+	text-align:left;
+}
+
+.mypage_mid table th, .mypage_mid table td {
+	padding-left:20px;
+}
+
+.mypage_mid table th {
+	font-size:13px;
+}
+
+.mypage_mid table td {
+	font-size:10px;
+	color:#9e9a9a;
+}
+
+.mypage_bottom table {
+	margin-top:20px;
+	margin-left:150px;
+	margin-bottom:40px;
+	padding-left:10px;
+	font-size:10px;
+	text-align:left;
+}
+
+.mypage_bottom table th, .mypage_bottom table td {
+	padding-left:20px;
+}
+
+.mypage_bottom table th {
+	color:#9e9a9a;
+}
+
+.mypage_bottom table input[type="submit"] {
+	background:#df231e;
+	border-radius:1px 1px 1px 1px;
+	border:1px solid #d1d8e4;
+	color:#fff;
+	padding:5px;
+	font-size:10px;
+}
+
+.mypage_bottom table td:nth-child(3) {
+	padding-left:55px;
+	vertical-align:bottom;
+}
+
+.keepList_title {
+	text-align:center;
+	font-size:14px;
+	border-bottom:4px solid #df231e;
+}
+
+subname {
+	font-size:10px;
+	color:#df231e;
+	font-weight:bold
+	
+}
+
+.keeplist_main {
+	
+}
+
+.mov_table {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.mov_table td {
+	margin:0;
+	padding-left:5px;
+	padding-right:5px;
+	
+}
+
+.mov_table h {
+	margin:0;
+	font-size:18px;
+	padding-right:5px;
+	
+}
+
+
+
+.keeplist_main img{
+	background: none;
+	margin-right: 10px;
+	float:left;
+	width: 150px;
+}
+
+.keeplist_main th {
+	text-align:left;
+	hegit:50px;
+	border-bottom:1px solid #d1d8e4;
+	
+}
+
+.keeplist_main td {
+	text-align:left;
+	font-size:10px;
+	
+}
+
+.story {
+	/* align:center; */
+	text-align:center;
+	width:400px;
+	font-size:10px;
+	margin-left:135px;
+}
+
+
+.warper {
+	
+}
+
+.bxslider_view {
+	margin-top : 30px;	
+}
+
+.tra {
+	align:center;
+	font-family : "굴림";
+	background: none;
+	text-align:center;
+}
+
+.result {
+    position: relative;
+    border-bottom: 1px solid #bcbcbc;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(188, 188, 188);
+}
+
+/********************************************/

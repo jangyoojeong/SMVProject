@@ -1,0 +1,217 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	/* padding: 0; */
+	
+}
+
+header {
+	
+}
+
+footer {
+	
+}
+
+.wrap {
+	/* width: 100%; */
+	position : relative;
+	overflow:hidden;
+	
+/* 	font-family:'Malgun Gothic'; */
+	
+}
+
+
+.header {
+	/* z-index:100; */
+	border-top:8px solid  #df231e;
+	border-bottom:1px solid #d1d8e4;
+	background:#fff;
+	
+	
+}
+
+.header_logo {
+	display:flex;
+	/* max-width:1000px; */
+	margin-top:10px;
+	margin-left:15px;
+}
+
+.logo {
+	margin: 0;
+	width: 200px;
+	height:60px;
+	background:url(./images/logo.jpg);
+/* 	href:"main.jsp";??? 링크 확인할것 */
+	font-size:0;
+	
+	
+}
+
+/* .logo_text {
+	margin-left:10px;
+	font-size:10;
+	margin-top:auto;
+	color:#df231e;
+	
+	
+} */
+
+.search {
+	margin-top:auto;
+	margin-left:auto;
+	margin-right:15px;
+	vertical-align:top;
+	
+}
+
+.search input[type="text"] {
+	width:80px;
+}
+
+.search input[type="submit"] {
+	background:#df231e;
+	/* border:3px solid #d1d8e4; */
+	color:#fff;
+	border: 0;
+	
+}
+
+.special_bg {
+	position:relative;
+	height:70px;
+	/* transition: */
+	
+}
+
+.wrap nav {
+	background:#fff;
+	border-bottom:1px solid #d1d8e4;
+	
+}
+
+.wrap nav ul {
+	display:flex;
+	list-style:none;
+	margin: 0;
+	padding:3px 10px 3px 10px;
+}
+
+.wrap nav li a {
+	display:block;
+	padding:0px 5px;
+	text-decoration:none;
+	font-size:14px;
+	color:#000000;
+}
+
+/* nav li a:hover {
+	background:#37a29B;
+	border-radius:5px 5px 0 0;
+} */
+
+.wrap nav li.contact {
+	margin-right:auto;
+/* 	display:none;
+	position:absolute;
+	top:62px;
+	right:0;
+	z-index:20;
+	margin:0;
+	padding:0;
+	width:200px; */
+}
+
+/* .wrap .contact nav li:hover  {
+	display:block;
+}
+
+.nav-container {
+	position:absolute;
+	top:62px;
+	right:0;
+	z-index:20;
+	margin:0;
+	padding:0;
+	width:200px;
+} */
+
+
+/******************************************/
+/* foot */
+
+.footer {
+	/* position:fixed; */
+	height:65px;
+	background:#df231e;
+	color:#fff
+	border-radius:0 0 10px 10px;
+}
+
+.footer_logo {
+	display:flex;
+	/* max-width:1000px; */
+	margin-top:10px;
+	margin-left:15px;
+}
+
+.logo2 {
+	margin: 0;
+	width: 65px;
+	height:52px;
+	background:url(./images/logo2.png);
+	font-size:0;
+}
+
+.footer_text {
+	margin-top: auto;
+	margin-left: 10px;
+	color:#fff;
+	font-size:12px;
+		
+}
+
+/*****************************************드랍다운 메뉴 */
+
+li a, .dropbtn {
+	position: relative;
+    display: inline-block;
+    color:#fff;
+    /* text-align: center; */
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    color:#fff;
+    position: relative;
+    background-color: #DF231E;
+    width: 200px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1000;
+}
+
+.contact .dropdown-content a {
+	position: relative;
+    color:#fff;
+    font-size:10px;
+    padding-top:5px;
+    padding-left:10px;
+    padding-bottom:5px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+.dropdown-content a:hover {
+	background-color: #BC1920;
+}
+
+.contact:hover .dropdown-content {
+    display: block;
+}
