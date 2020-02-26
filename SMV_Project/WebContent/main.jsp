@@ -45,7 +45,6 @@
             stopAutoOnclick:true,	/* 클릭해서 자동 실행 멈출 수 있도록 */
             touchEnabled:false,
             autoHover:true,
-            
           });
         });
 		$(function() {
